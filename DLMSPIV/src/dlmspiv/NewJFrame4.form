@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1920, 1080]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1920, 1080]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="1831" max="-2" attributes="0"/>
+              <EmptySpace pref="129" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="346" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel7" min="-2" pref="412" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="713" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel7" min="-2" pref="163" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="714" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/res/Logo2.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="autoscrolls" type="boolean" value="true"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jScrollPane1"/>
+            </Property>
+          </AccessibilityProperties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                      <Component id="jComboBox1" min="-2" pref="190" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="1" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jComboBox15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jComboBox12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jComboBox13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jComboBox14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jComboBox10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jComboBox11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jComboBox8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField1" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jComboBox19" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jComboBox20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jComboBox17" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jComboBox18" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jComboBox3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jComboBox4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jComboBox5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jComboBox6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel10" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jComboBox7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jComboBox8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel12" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jComboBox9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jComboBox10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel15" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jComboBox11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="jLabel17" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jComboBox12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel18" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jComboBox13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel19" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jComboBox14" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel20" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jComboBox15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="jLabel22" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTextField1" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jLabel24" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jComboBox17" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jComboBox18" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jComboBox19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jComboBox20" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="135" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="2.1 &#x41a;&#x410;&#x41a; &#x412;&#x42b; &#x412;&#x42b;&#x411;&#x420;&#x410;&#x41b;&#x418; &#x41f;&#x420;&#x41e;&#x424;&#x415;&#x421;&#x421;&#x418;&#x42e;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. &#x414;&#x410;"/>
+                    <StringItem index="2" value="B. &#x41d;&#x415; &#x41e;&#x427;&#x415;&#x41d;&#x42c;"/>
+                    <StringItem index="3" value="&#x421;. &#x41d;&#x415;&#x422;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="2.2 &#x41c;&#x41e;&#x416;&#x41d;&#x41e; &#x41b;&#x418; &#x412;&#x410;&#x421; &#x41d;&#x410;&#x417;&#x412;&#x410;&#x422;&#x42c; &#x41e;&#x411;&#x429;&#x418;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x42b;&#x41c; &#x427;&#x415;&#x41b;&#x41e;&#x412;&#x415;&#x41a;&#x41e;&#x41c;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="2. &#x41e;&#x421;&#x41e;&#x411;&#x415;&#x41d;&#x41d;&#x41e;&#x421;&#x422;&#x418; &#x41f;&#x41e;&#x417;&#x41d;&#x410;&#x412;&#x410;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x41e;&#x419; &#x414;&#x415;&#x42f;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x41e;&#x421;&#x422;&#x418;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="1. &#x412;&#x41e;&#x417;&#x420;&#x410;&#x421;&#x422;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. 17-20"/>
+                    <StringItem index="2" value="B. &#x412;&#x42b;&#x428;&#x415; 21"/>
+                    <StringItem index="3" value="&#x421;. &#x412;&#x42b;&#x428;&#x415; 35"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. &#x412;&#x42b;&#x421;&#x41e;&#x41a;&#x410;&#x42f;"/>
+                    <StringItem index="2" value="B. &#x421;&#x420;&#x415;&#x414;&#x41d;&#x42f;&#x42f;"/>
+                    <StringItem index="3" value="&#x421;. &#x41d;&#x418;&#x417;&#x41a;&#x410;&#x42f;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="2.5 &#x41f;&#x41e;&#x417;&#x41d;&#x410;&#x412;&#x410;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x410;&#x42f; &#x410;&#x41a;&#x422;&#x418;&#x412;&#x41d;&#x41e;&#x421;&#x422;&#x42c; (&#x421;&#x422;&#x420;&#x415;&#x41c;&#x41b;&#x415;&#x41d;&#x418;&#x41f;&#x415; &#x41a; &#x41d;&#x41e;&#x412;&#x42b;&#x41c; &#x417;&#x41d;&#x410;&#x41d;&#x418;&#x42f;&#x41c;):"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="A. &#x418;&#x421;&#x425;&#x41e;&#x414;&#x42f; &#x418;&#x417; &#x41f;&#x420;&#x410;&#x41a;&#x422;&#x418;&#x427;&#x415;&#x421;&#x41a;&#x418;&#x425; &#x421;&#x41e;&#x41e;&#x411;&#x420;&#x410;&#x416;&#x415;&#x41d;&#x418;&#x419;"/>
+                    <StringItem index="2" value="B. &#x411;&#x41b;&#x410;&#x413;&#x41e;&#x414;&#x410;&#x420;&#x42f; &#x421;&#x41b;&#x423;&#x427;&#x410;&#x419;&#x41d;&#x41e;&#x41c;&#x423; &#x421;&#x422;&#x415;&#x427;&#x415;&#x41d;&#x418;&#x42e; &#x41e;&#x411;&#x421;&#x422;&#x41e;&#x42f;&#x422;&#x415;&#x41b;&#x42c;&#x421;&#x422;&#x412;"/>
+                    <StringItem index="3" value="&#x421;. &#x41e;&#x421;&#x422;&#x410;&#x41d;&#x41e;&#x412;&#x418;&#x41b; &#x421;&#x412;&#x41e;&#x419; &#x412;&#x42b;&#x411;&#x41e;&#x420; &#x41d;&#x410; &#x41f;&#x415;&#x420;&#x412;&#x41e;&#x41c;, &#x427;&#x422;&#x41e; &#x411;&#x41e;&#x41b;&#x415;&#x415;-&#x41c;&#x415;&#x41d;&#x415;&#x415; &#x41c;&#x41d;&#x415; &#x41f;&#x41e;&#x414;&#x41e;&#x428;&#x41b;&#x41e;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. &#x414;&#x410;"/>
+                    <StringItem index="2" value="B. &#x41d;&#x415; &#x41e;&#x427;&#x415;&#x41d;&#x42c;"/>
+                    <StringItem index="3" value="&#x421;. &#x41d;&#x415;&#x422;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. ON-LINE"/>
+                    <StringItem index="2" value="B. OFF-LINE"/>
+                    <StringItem index="3" value="&#x421;. &#x422;&#x420;&#x410;&#x414;&#x418;&#x426;&#x418;&#x41e;&#x41d;&#x41d;&#x41e;&#x415;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="2.4 &#x41a;&#x410;&#x41a;&#x41e;&#x419; &#x421;&#x41f;&#x41e;&#x421;&#x41e;&#x411; &#x423;&#x427;&#x415;&#x411;&#x42b; &#x414;&#x41b;&#x42f; &#x412;&#x410;&#x421; &#x41f;&#x420;&#x415;&#x414;&#x41f;&#x41e;&#x427;&#x422;&#x418;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x415;&#x415;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="2.3 &#x412;&#x42b; &#x41b;&#x415;&#x413;&#x41a;&#x41e; &#x423;&#x421;&#x412;&#x410;&#x418;&#x412;&#x410;&#x415;&#x422;&#x415; &#x41d;&#x41e;&#x412;&#x42b;&#x419; &#x41c;&#x410;&#x422;&#x415;&#x420;&#x418;&#x410;&#x41b;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="6. &#x41b;&#x41e;&#x413;&#x418;&#x427;&#x415;&#x421;&#x41a;&#x41e;&#x419; &#x41c;&#x42b;&#x428;&#x41b;&#x415;&#x41d;&#x418;&#x415;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="3.1 &#x41a;&#x41e;&#x413;&#x414;&#x410; &#x423; &#x412;&#x410;&#x421; &#x427;&#x422;&#x41e;-&#x422;&#x41e; &#x41d;&#x415; &#x41f;&#x41e;&#x41b;&#x423;&#x427;&#x410;&#x415;&#x422;&#x421;&#x42f;, &#x412;&#x42b;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. &#x41f;&#x420;&#x41e;&#x414;&#x41e;&#x41b;&#x416;&#x410;&#x415;&#x422;&#x415; &#x41d;&#x410;&#x427;&#x410;&#x422;&#x41e;&#x415; &#x414;&#x415;&#x41b;&#x41e;"/>
+                    <StringItem index="2" value="B. &#x41a;&#x410;&#x41a;&#x41e;&#x415;-&#x422;&#x41e; &#x412;&#x420;&#x415;&#x41c;&#x42f; &#x412;&#x421;&#x415; &#x420;&#x410;&#x412;&#x41d;&#x41e; &#x41f;&#x420;&#x41e;&#x414;&#x41e;&#x41b;&#x416;&#x410;&#x415;&#x422;&#x415; &#x414;&#x415;&#x419;&#x421;&#x422;&#x412;&#x41e;&#x412;&#x410;&#x422;&#x42c;&quot;"/>
+                    <StringItem index="3" value="&#x421;. &#x41e;&#x422;&#x41a;&#x410;&#x417;&#x42b;&#x412;&#x410;&#x415;&#x422;&#x415;&#x421;&#x42c; &#x41e;&#x422; &#x417;&#x410;&#x422;&#x415;&#x418; &#x41a;&#x410;&#x41a; &#x41e;&#x422; &#x41d;&#x415;&#x420;&#x415;&#x410;&#x41b;&#x42c;&#x41d;&#x41e;&#x419;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="3.2 &#x412; &#x417;&#x410;&#x422;&#x420;&#x423;&#x414;&#x41d;&#x418;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x42b;&#x425; &#x421;&#x418;&#x422;&#x423;&#x410;&#x426;&#x418;&#x42f;&#x425;, &#x41a;&#x410;&#x421;&#x410;&#x42e;&#x429;&#x418;&#x415;&#x421;&#x42f; &#x423;&#x427;&#x415;&#x411;&#x42b;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="A. &#x41d;&#x415; &#x41b;&#x42e;&#x411;&#x418;&#x422;&#x415; &#x41e;&#x411;&#x420;&#x410;&#x429;&#x410;&#x422;&#x42c;&#x421;&#x42f;, &#x420;&#x415;&#x428;&#x410;&#x415;&#x422;&#x415; &#x421;&#x410;&#x41c;&#x41e;&#x421;&#x422;&#x41e;&#x42f;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x41e;"/>
+                    <StringItem index="2" value="B. &#x421;&#x41f;&#x415;&#x428;&#x418;&#x422;&#x415; &#x41e;&#x411;&#x420;&#x410;&#x422;&#x418;&#x422;&#x42c;&#x421;&#x42f; &#x417;&#x410; &#x41f;&#x41e;&#x41c;&#x41e;&#x429;&#x42c;&#x42e; &#x41a; &#x414;&#x420;&#x423;&#x413;&#x418;&#x41c;"/>
+                    <StringItem index="3" value="&#x421;. &#x41e;&#x421;&#x422;&#x410;&#x412;&#x41b;&#x42f;&#x415;&#x422;&#x415; &#x412;&#x421;&#x415; &#x41a;&#x410;&#x41a; &#x415;&#x421;&#x422;&#x42c;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="3.&#x41f;&#x421;&#x418;&#x425;&#x41e;&#x41b;&#x41e;&#x413;&#x418;&#x427;&#x415;&#x421;&#x41a;&#x418;&#x419; &#x418; &#x412;&#x41e;&#x41b;&#x415;&#x412;&#x41e;&#x419; &#x41f;&#x41e;&#x422;&#x415;&#x41d;&#x426;&#x418;&#x410;&#x41b; &#x41b;&#x418;&#x427;&#x41d;&#x41e;&#x421;&#x422;&#x418;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="4.1 &#x41f;&#x41e;&#x417;&#x412;&#x41e;&#x41b;&#x42f;&#x415;&#x422; &#x41b;&#x418; &#x412;&#x410;&#x41c; &#x417;&#x414;&#x41e;&#x420;&#x41e;&#x412;&#x42c;&#x415; &#x41d;&#x410;&#x41f;&#x420;&#x42f;&#x416;&#x415;&#x41d;&#x41d;&#x41e; &#x417;&#x410;&#x41d;&#x418;&#x41c;&#x410;&#x422;&#x42c;&#x421;&#x42f; &#x423;&#x427;&#x415;&#x411;&#x41e;&#x419;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. &#x414;&#x410;"/>
+                    <StringItem index="2" value="B. &#x423;&#x41c;&#x415;&#x420;&#x415;&#x41d;&#x41d;&#x41e;"/>
+                    <StringItem index="3" value="&#x421;. &#x41d;&#x415;&#x422;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="4.2 &#x412;&#x410;&#x428;&#x410; &#x41f;&#x410;&#x41c;&#x42f;&#x422;&#x42c;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. &#x425;&#x41e;&#x420;&#x41e;&#x428;&#x410;&#x42f;"/>
+                    <StringItem index="2" value="B. &#x421;&#x420;&#x415;&#x414;&#x41d;&#x42f;&#x42f;"/>
+                    <StringItem index="3" value="&#x421;. &#x41f;&#x41b;&#x41e;&#x425;&#x410;&#x42f;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="4.&#x424;&#x418;&#x417;&#x418;&#x41e;&#x41b;&#x41e;&#x413;&#x418;&#x427;&#x415;&#x421;&#x41a;&#x418;&#x419; &#x41f;&#x41e;&#x422;&#x415;&#x41d;&#x426;&#x418;&#x410;&#x41b; &#x41b;&#x418;&#x427;&#x41d;&#x41e;&#x421;&#x422;&#x418;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="5.1 &#x423;&#x411;&#x415;&#x416;&#x414;&#x415;&#x41d;&#x42b; &#x41b;&#x418; &#x412;&#x42b; &#x412; &#x41d;&#x415;&#x41e;&#x411;&#x425;&#x41e;&#x414;&#x418;&#x41c;&#x41e;&#x421;&#x422;&#x418; &#x41f;&#x41e;&#x41b;&#x423;&#x427;&#x415;&#x41d;&#x418;&#x42f; &#x41a;&#x410;&#x41a;&#x41e;&#x419;- &#x41b;&#x418;&#x411;&#x41e; &#x41f;&#x41e;&#x41b;&#x415;&#x417;&#x41d;&#x41e;&#x419; &#x41a;&#x412;&#x410;&#x41b;&#x418;&#x424;&#x418;&#x41a;&#x410;&#x426;&#x418;&#x418;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. &#x414;&#x410;"/>
+                    <StringItem index="2" value="B. &#x412; &#x41d;&#x415;&#x41a;&#x41e;&#x422;&#x41e;&#x420;&#x41e;&#x419; &#x421;&#x422;&#x415;&#x41f;&#x415;&#x41d;&#x418;"/>
+                    <StringItem index="3" value="&#x421;. &#x41d;&#x415;&#x422;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="5.2 &#x41a;&#x41e;&#x413;&#x414;&#x410; &#x412;&#x42b; &#x411;&#x415;&#x420;&#x415;&#x422;&#x415;&#x421;&#x42c; &#x417;&#x410; &#x421;&#x410;&#x41c;&#x41e;&#x421;&#x422;&#x41e;&#x42f;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x41e;&#x415; &#x41e;&#x411;&#x423;&#x427;&#x415;&#x41d;&#x418;&#x415;, &#x415;&#x421;&#x422;&#x42c; &#x41b;&#x418; &#x423;&#x412;&#x415;&#x420;&#x415;&#x41d;&#x41d;&#x41e;&#x421;&#x422;&#x42c;, &#x412; &#x422;&#x41e;&#x41c;, &#x427;&#x422;&#x41e; &#x412;&#x42b; &#x41e;&#x421;&#x423;&#x429;&#x415;&#x421;&#x422;&#x412;&#x418;&#x422;&#x415; &#x421;&#x412;&#x41e;&#x415; &#x41d;&#x410;&#x427;&#x418;&#x41d;&#x410;&#x41d;&#x418;&#x415;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=""/>
+                    <StringItem index="1" value="A. &#x414;&#x410;"/>
+                    <StringItem index="2" value="B. &#x427;&#x410;&#x421;&#x422;&#x41e; &#x411;&#x42b;&#x412;&#x410;&#x42e;&#x422; &#x421;&#x41e;&#x41c;&#x41d;&#x415;&#x41d;&#x418;&#x42f;"/>
+                    <StringItem index="3" value="&#x421;. &#x41d;&#x415;&#x422;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="5.3 &#x411;&#x42b;&#x412;&#x410;&#x415;&#x422; &#x41b;&#x418; &#x423; &#x412;&#x410;&#x421; &#x416;&#x415;&#x41b;&#x410;&#x41d;&#x418;&#x415; &#x417;&#x410;&#x41d;&#x42f;&#x422;&#x42c;&#x421;&#x42f; &#x41e;&#x411;&#x423;&#x427;&#x415;&#x41d;&#x418;&#x415;&#x41c; &#x421;&#x41e;&#x412;&#x415;&#x420;&#x428;&#x415;&#x41d;&#x41d;&#x41e; &#x41d;&#x41e;&#x412;&#x41e;&#x419;, &#x41d;&#x415;&#x417;&#x41d;&#x410;&#x41a;&#x41e;&#x41c;&#x41e;&#x419; &#x414;&#x418;&#x421;&#x426;&#x418;&#x41f;&#x41b;&#x418;&#x41d;&#x42b;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="A. &#x414;&#x410;, &#x41d;&#x415;&#x418;&#x417;&#x412;&#x415;&#x421;&#x422;&#x41d;&#x41e;&#x415; &#x41c;&#x415;&#x41d;&#x42f; &#x41f;&#x420;&#x418;&#x412;&#x41b;&#x415;&#x41a;&#x410;&#x415;&#x422;"/>
+                    <StringItem index="2" value="B. &#x412;&#x421;&#x415; &#x417;&#x410;&#x412;&#x418;&#x421;&#x418;&#x422; &#x41e;&#x422; &#x421;&#x41e;&#x414;&#x415;&#x420;&#x416;&#x410;&#x41d;&#x418;&#x42f; &#x42d;&#x422;&#x41e;&#x419; &#x41e;&#x411;&#x41b;&#x410;&#x421;&#x422;&#x418; &#x41e;&#x411;&#x423;&#x427;&#x415;&#x41d;&#x418;&#x42f;"/>
+                    <StringItem index="3" value="&#x421;. &#x41d;&#x415;&#x418;&#x417;&#x412;&#x415;&#x421;&#x422;&#x41d;&#x41e;&#x415; &#x41c;&#x415;&#x41d;&#x42f; &#x41d;&#x415; &#x418;&#x41d;&#x422;&#x415;&#x420;&#x415;&#x421;&#x423;&#x415;&#x422;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="5.4 &#x417;&#x410;&#x41d;&#x418;&#x41c;&#x410;&#x42f;&#x421;&#x42c; &#x41e;&#x411;&#x423;&#x427;&#x415;&#x41d;&#x418;&#x415;&#x41c; &#x41d;&#x41e;&#x412;&#x41e;&#x419; &#x414;&#x418;&#x421;&#x426;&#x418;&#x41f;&#x41b;&#x418;&#x41d;&#x42b;, &#x421;&#x422;&#x420;&#x415;&#x41c;&#x418;&#x422;&#x415;&#x421;&#x42c; &#x41b;&#x418; &#x412;&#x42b; &#x414;&#x41e;&#x411;&#x418;&#x422;&#x42c;&#x421;&#x42f; &#x412; &#x41d;&#x415;&#x41c; &#x421;&#x41e;&#x412;&#x415;&#x420;&#x428;&#x415;&#x41d;&#x421;&#x422;&#x412;&#x410;?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="A. &#x414;&#x410;"/>
+                    <StringItem index="2" value="B. &#x423;&#x414;&#x41e;&#x412;&#x41b;&#x415;&#x422;&#x412;&#x41e;&#x420;&#x418;&#x422;&#x415;&#x421;&#x42c; &#x422;&#x415;&#x41c;, &#x427;&#x415;&#x413;&#x41e; &#x421;&#x41c;&#x41e;&#x413;&#x41b;&#x418; &#x414;&#x41e;&#x411;&#x418;&#x422;&#x42c;&#x421;&#x42f;"/>
+                    <StringItem index="3" value="&#x421;. &#x41d;&#x415;&#x422;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox15ActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="5.&#x41c;&#x41e;&#x422;&#x418;&#x412;&#x410;&#x426;&#x418;&#x41e;&#x41d;&#x41d;&#x42b;&#x419; &#x41f;&#x41e;&#x422;&#x415;&#x41d;&#x426;&#x418;&#x410;&#x41b; &#x41b;&#x418;&#x427;&#x41d;&#x41e;&#x421;&#x422;&#x418;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="6.1 &#x412;&#x421;&#x422;&#x410;&#x412;&#x42c;&#x422;&#x415; &#x41d;&#x415;&#x414;&#x41e;&#x421;&#x422;&#x410;&#x42e;&#x429;&#x415;&#x415; &#x427;&#x418;&#x421;&#x41b;&#x41e;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/res/6.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="7.&#x422;&#x415;&#x425;&#x41d;&#x418;&#x41a;&#x410; &#x427;&#x422;&#x415;&#x41d;&#x418;&#x42f; (180, 156, 189, 190, 200,230,250)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="8">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="156"/>
+                    <StringItem index="2" value="180"/>
+                    <StringItem index="3" value="189"/>
+                    <StringItem index="4" value="190"/>
+                    <StringItem index="5" value="200"/>
+                    <StringItem index="6" value="230"/>
+                    <StringItem index="7" value="250"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox17ActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="8.&#x412;&#x41e;&#x421;&#x41f;&#x420;&#x418;&#x42f;&#x422;&#x418;&#x415; &#x418;&#x41d;&#x424;&#x41e;&#x420;&#x41c;&#x410;&#x426;&#x418;&#x418;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="A. &#x421;&#x41b;&#x423;&#x425;&#x41e;&#x412;&#x41e;&#x415; &#x412;&#x41e;&#x421;&#x41f;&#x420;&#x418;&#x42f;&#x422;&#x418;&#x415;"/>
+                    <StringItem index="2" value="B. &#x417;&#x420;&#x418;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x41e;&#x415; &#x412;&#x41e;&#x421;&#x41f;&#x420;&#x418;&#x42f;&#x422;&#x418;&#x415;"/>
+                    <StringItem index="3" value="&#x421;. &#x41e;&#x421;&#x42f;&#x417;&#x410;&#x41d;&#x418;&#x415;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox18ActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="9.&#x421;&#x41e;&#x421;&#x422;&#x41e;&#x42f;&#x41d;&#x418;&#x415; &#x417;&#x414;&#x41e;&#x420;&#x41e;&#x412;&#x42c;&#x415; &#x41f;&#x41e; &#x414;&#x415;&#x424;&#x415;&#x41a;&#x422;&#x423; &#x417;&#x420;&#x415;&#x41d;&#x418;&#x42f;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="A. &#x41f;&#x420;&#x418; &#x42d;&#x41c;&#x41c;&#x415;&#x422;&#x420;&#x41e;&#x41f;&#x418;&#x418; (&#x41d;&#x41e;&#x420;&#x41c;&#x410;&#x41b;&#x42c;&#x41d;&#x41e;&#x41c; &#x417;&#x420;&#x415;&#x41d;&#x418;&#x418;) &#x413;&#x41b;&#x410;&#x417; &#x412;&#x418;&#x414;&#x418;&#x422; &#x411;&#x423;&#x41a;&#x412;&#x42b; &#x421; &#x41e;&#x411;&#x415;&#x418;&#x425; &#x421;&#x422;&#x41e;&#x420;&#x41e;&#x41d; &#x41e;&#x414;&#x418;&#x41d;&#x410;&#x41a;&#x41e;&#x412;&#x42b;&#x41c;&#x418; &#x41f;&#x41e; &#x422;&#x415;&#x41c;&#x41d;&#x41e;&#x422;&#x415; &#x418; &#x427;&#x415;&#x422;&#x41a;&#x41e;&#x421;&#x422;&#x418;."/>
+                    <StringItem index="2" value="B. &#x415;&#x421;&#x41b;&#x418; &#x421;&#x418;&#x41c;&#x412;&#x41e;&#x41b;&#x42b; &#x41a;&#x410;&#x416;&#x423;&#x422;&#x421;&#x42f; &#x411;&#x41e;&#x41b;&#x415;&#x415; &#x427;&#x415;&#x422;&#x41a;&#x418;&#x41c;&#x418; &#x41d;&#x410; &#x41a;&#x420;&#x410;&#x421;&#x41d;&#x41e;&#x41c; &#x424;&#x41e;&#x41d;&#x415;, &#x422;&#x41e; &#x421;&#x423;&#x429;&#x415;&#x421;&#x422;&#x412;&#x423;&#x415;&#x422; &#x411;&#x41e;&#x41b;&#x42c;&#x428;&#x410;&#x42f; &#x412;&#x415;&#x420;&#x41e;&#x42f;&#x422;&#x41d;&#x41e;&#x421;&#x422;&#x42c; &#x41d;&#x410;&#x41b;&#x418;&#x427;&#x418;&#x42f; &#x411;&#x41b;&#x418;&#x417;&#x41e;&#x420;&#x423;&#x41a;&#x41e;&#x421;&#x422;&#x418;."/>
+                    <StringItem index="3" value="&#x421;. &#x415;&#x421;&#x41b;&#x418; &#x41d;&#x410; &#x417;&#x415;&#x41b;&#x415;&#x41d;&#x41e;&#x41c;, &#x422;&#x41e; &#x41c;&#x41e;&#x416;&#x41d;&#x41e; &#x41f;&#x420;&#x415;&#x414;&#x41f;&#x41e;&#x41b;&#x41e;&#x416;&#x418;&#x422;&#x42c; &#x41d;&#x410;&#x41b;&#x418;&#x427;&#x418;&#x415; &#x414;&#x410;&#x41b;&#x42c;&#x41d;&#x41e;&#x417;&#x41e;&#x420;&#x41a;&#x41e;&#x421;&#x422;&#x418;."/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox19ActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/res/9.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="10.&#x41e;&#x41f;&#x420;&#x415;&#x414;&#x415;&#x41b;&#x415;&#x41d;&#x418;&#x415; &#x41e;&#x421;&#x422;&#x420;&#x41e;&#x422;&#x42b; &#x417;&#x420;&#x415;&#x41d;&#x418;&#x42f;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="&#x421;&#x41b;&#x410;&#x411;&#x41e;&#x412;&#x418;&#x414;&#x42f;&#x429;&#x418;&#x415; (&#x421; &#x413;&#x418;&#x41f;&#x415;&#x420;&#x41c;&#x415;&#x422;&#x420;&#x41e;&#x41f;&#x418;&#x415;&#x419;)"/>
+                    <StringItem index="2" value="&#x421;&#x41b;&#x410;&#x411;&#x41e;&#x412;&#x418;&#x414;&#x42f;&#x429;&#x418;&#x415; (&#x421; &#x41c;&#x418;&#x41e;&#x41f;&#x418;&#x415;&#x419;)"/>
+                    <StringItem index="3" value="&#x421;&#x41b;&#x415;&#x41f;&#x42b;&#x415;"/>
+                    <StringItem index="4" value="&#x427;&#x410;&#x421;&#x422;&#x418;&#x427;&#x41d;&#x41e; &#x417;&#x420;&#x42f;&#x427;&#x418;&#x415; (&#x421; &#x413;&#x418;&#x41f;&#x415;&#x420;&#x41c;&#x415;&#x422;&#x420;&#x41e;&#x41f;&#x418;&#x415;&#x419;)"/>
+                    <StringItem index="5" value="&#x427;&#x410;&#x421;&#x422;&#x418;&#x427;&#x41d;&#x41e; &#x417;&#x420;&#x42f;&#x427;&#x418;&#x415; (&#x421; &#x41c;&#x418;&#x41e;&#x41f;&#x418;&#x415;&#x419;)"/>
+                    <StringItem index="6" value="&#x42d;&#x41c;&#x41c;&#x415;&#x422;&#x420;&#x41e;&#x41f;&#x418;&#x42f;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox20ActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x414;&#x410;&#x41b;&#x415;&#x415;"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="0"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+                <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField1KeyTyped"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x422;&#x415;&#x421;&#x422; &#x41d;&#x410; &#x41f;&#x41e;&#x421;&#x422;&#x420;&#x41e;&#x415;&#x41d;&#x418;&#x42f; &#x417;&#x420;&#x418;&#x422;&#x415;&#x41b;&#x42c;&#x41d;&#x41e;&#x419; &#x41c;&#x41e;&#x414;&#x415;&#x41b;&#x418; &#x41e;&#x411;&#x423;&#x427;&#x410;&#x42e;&#x429;&#x418;&#x425;&#x421;&#x42f;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
